@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
 
-    "deploy": "ng build --base-href=/SEU-REPOSITORIO/ --output-path=docs && npx angular-cli-ghpages --dir=docs"
+    "deploy": "ng build --base-href=/livros-angular-faculdade/ --output-path=docs && npx angular-cli-ghpages --dir=docs"
   },
   "prettier": {
     "printWidth": 100,
