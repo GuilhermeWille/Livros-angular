@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+
+    "deploy": "ng build --base-href=/SEU-REPOSITORIO/ --output-path=docs && npx angular-cli-ghpages --dir=docs"
   },
   "prettier": {
     "printWidth": 100,
